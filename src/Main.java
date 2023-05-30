@@ -60,12 +60,22 @@ public class Main {
         System.out.println("Вес порции в граммах равен " + weighPortion + " гр");
         System.out.println("Вес порции в килограммах равен " + weighPortion / 1000f + " кг");
         //Задача 7
-        double weight = 7000;
-        double grDay = 0.250;
-        double grDayTwo = 0.500;
-        System.out.println("Потребуется " + weight / grDay + " дней чтобы похудеть к соревнованиям." );
-        System.out.println("Потребуется " + weight / grDayTwo + " дней чтобы похудеть к соревнованиям." );
+        float  weightSportsman = 7.000f;
+        float grDay = weightSportsman / 0.25f;
+        float grDayTwo = weightSportsman / 0.5f;
+        System.out.println("Потребуется " + grDay + " дней чтобы похудеть к соревнованиям." );
+        System.out.println("Потребуется " + grDayTwo + " дней чтобы похудеть к соревнованиям." );
         //Задача 8
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        int mashaUp = (int) (masha * 0.1) + masha;
+        int denisUp = (int) (denis * 0.1) + denis;
+        int kristinaUp = (int) (kristina * 0.1) + kristina;
+        System.out.println("Маша теперь получает " + mashaUp + " рублей. Годовой доход вырос на " + ((mashaUp * 12) - (masha * 12)) + " рублей." );
+        System.out.println("Маша теперь получает " + denisUp + " рублей. Годовой доход вырос на " + ((denisUp * 12) - (denis * 12)) + " рублей." );
+        System.out.println("Маша теперь получает " + kristinaUp + " рублей. Годовой доход вырос на " + ((kristinaUp * 12) - (kristina * 12)) + " рублей." );
+
 
 
 
