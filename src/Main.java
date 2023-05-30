@@ -14,6 +14,72 @@ public class Main {
         System.out.println("Значение переменной float c типом e равно " + e );
         System.out.println("Значение переменной double c типом f равно " + f );
         //Задача 2
+        float g = 27.12f;
+        long h = 987678965549L;
+        double m = 2.786;
+        int x = 569;
+        short z = -159;
+        var q = 27897;
+        byte o = 67;
+        System.out.println(g);
+        System.out.println(h);
+        System.out.println(m);
+        System.out.println(x);
+        System.out.println(z);
+        System.out.println(q);
+        System.out.println(o);
+        //Задача 3
+        byte ludmila = 23;
+        byte anna = 27;
+        byte ekaterina = 30;
+        short paper = 480;
+        int totalStudents = ludmila + ekaterina + anna;
+        System.out.println("На каждого ученика рассчитано " + paper / totalStudents + " листов бумаги.");
+        //Задача 4
+        short bottleMin = 16 / 2;
+        byte aMin = 20;
+        short bMin = 24 * 60;
+        short cMin = (24 * 3) * 60;
+        int dMin = (24 * 30) * 60;
+        System.out.println("За 20 минут машина произвела " + bottleMin * aMin + " штук бутылок");
+        System.out.println("За сутки машина произвела " + bottleMin * bMin + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + bottleMin * cMin + " штук бутылок");
+        System.out.println("За месяц машина произвела " + bottleMin * dMin + " штук бутылок");
+        //Задача 5
+        byte white = 2;
+        byte brown = 4;
+        byte cans =  120;
+        short classroom = (short) (cans / (white + brown));
+        System.out.println("В школе, где " + classroom + " классов, нужно " + classroom * white + " банок белой краски и " + classroom * brown + " коричневой краски.");
+        //Задача 6
+        short weightBananas = 5 * 80;
+        short weightMilk = 2 * 105;
+        short weightIceCream = 2 * 100;
+        short weightEgg = 4 * 70;
+        short weighPortion = (short) (weightBananas + weightMilk + weightIceCream + weightEgg);
+        System.out.println("Вес порции в граммах равен " + weighPortion + " гр");
+        System.out.println("Вес порции в килограммах равен " + weighPortion / 1000f + " кг");
+        //Задача 7
+        float  weightSportsman = 7.000f;
+        float grDay = weightSportsman / 0.25f;
+        float grDayTwo = weightSportsman / 0.5f;
+        System.out.println("Потребуется " + grDay + " дней чтобы похудеть к соревнованиям." );
+        System.out.println("Потребуется " + grDayTwo + " дней чтобы похудеть к соревнованиям." );
+        //Задача 8
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        int mashaUp = (int) (masha * 0.1) + masha;
+        int denisUp = (int) (denis * 0.1) + denis;
+        int kristinaUp = (int) (kristina * 0.1) + kristina;
+        System.out.println("Маша теперь получает " + mashaUp + " рублей. Годовой доход вырос на " + ((mashaUp * 12) - (masha * 12)) + " рублей." );
+        System.out.println("Маша теперь получает " + denisUp + " рублей. Годовой доход вырос на " + ((denisUp * 12) - (denis * 12)) + " рублей." );
+        System.out.println("Маша теперь получает " + kristinaUp + " рублей. Годовой доход вырос на " + ((kristinaUp * 12) - (kristina * 12)) + " рублей." );
+
+
+
+
+
 
     }
 }
